@@ -4,3 +4,27 @@ https://github.com/angular/angular-cli
 Instalaçao Angular Cli  => npm install -g @angular/cli
 
 Criaçao do Projeto no proprio diretorio => ng new angular-web-site-institucional --directory=.
+
+ng serve
+
+http://localhost:4200/
+
+
+>> Criando os componentes necessarios para a aplicaçao:
+ng generate component quem-somos
+ng generate component contato
+ng generate component nossa-visao
+
+>> Bootstrap cdn
+https://www.bootstrapcdn.com
+Complete CSS
+copiar o link no arquivo index.html
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+copia codigo app.component.html
+https://getbootstrap.com/docs/3.4/components/#navbar
+
+Modulo responsavel pelas rotas no angular
+ng g module contato
+ng g module nossa-visao
+ng g module quem-somos
